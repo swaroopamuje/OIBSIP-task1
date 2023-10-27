@@ -1,1 +1,2 @@
 # OIBSIP-task1
+Explore the world of web development by building a fully functional calculator using HTML, CSS, and JavaScript. This colorful project features an interactive interface, supporting addition, subtraction, multiplication, and division. The calculator boasts a dynamic display screen and eye-catching button design, making it both educational and visually engaging for developers of all backgrounds.
