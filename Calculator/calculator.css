@@ -1,0 +1,165 @@
+/* /* #calculator {
+  width: 300px;
+  margin: 0 auto;
+  border: 2px solid #333;
+  border-radius: 5px;
+  background-color: #eee;
+  padding: 10px;
+  box-shadow: 3px 3px 5px #888;
+}
+
+#display {
+  width: 100%;
+  height: 40px;
+  font-size: 24px;
+  text-align: right;
+  margin-bottom: 10px;
+}
+
+#buttons {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 5px;
+}
+
+button {
+  width: 100%;
+  height: 50px;
+  font-size: 20px;
+  border: none;
+  background-color: #555;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #333;
+} */
+*{
+  background-color: black;
+}
+#calculator {
+  width: 300px;
+  margin: 0 auto;
+  border: 2px solid #2a75bb;
+  border-radius: 5px;
+  background-color: #f4f4f4;
+  padding: 10px;
+  box-shadow: 3px 3px 5px #888;
+}
+
+#display {
+  width: 100%;
+  height: 40px;
+  font-size: 24px;
+  text-align: right;
+  margin-bottom: 10px;
+  background-color: #e2e2e2;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  color: #333;
+}
+
+#buttons {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 5px;
+}
+
+button {
+  width: 100%;
+  height: 50px;
+  font-size: 20px;
+  border: none;
+  /*background-color: #2a75bb;*/
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #1f558d;
+} */
+
+/* Customize the colors of specific buttons (operators and special buttons) */
+button:contains("+"), button:contains("-"), button:contains("*"), button:contains("/") {
+  background-color: #ffae00;
+}
+
+button:contains("C") {
+  background-color: #e74c3c;
+}
+
+button:contains("=") {
+  background-color: #4caf50;
+}
+
+button:contains(".") {
+  background-color: #ffc107;
+}
+#calculator {
+  width: 300px;
+  margin: 0 auto;
+  border: 2px solid #2a75bb;
+  border-radius: 5px;
+  background-color: #f4f4f4;
+  padding: 10px;
+  box-shadow: 3px 3px 5px #888;
+}
+
+#display {
+  width: 100%;
+  height: 40px;
+  font-size: 24px;
+  text-align: right;
+  margin-bottom: 10px;
+  background-color: #e2e2e2;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  color: #333;
+}
+
+#buttons {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 5px;
+  background-color: #f8f8f8; /* Background color for the button grid */
+}
+#style {
+  background-color: #ffae00;
+}
+
+#clear {
+  background-color: #e74c3c;
+}
+
+button:contains("=") {
+  background-color: #4caf50;
+}
+
+button:contains(".") {
+  background-color: #ffc107;
+}
+
+button {
+  width: 100%;
+  height: 50px;
+  font-size: 20px;
+  border: none;
+  background-color: #2a75bb;
+  color: #333;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #1f558d;
+}
+
+
+
+
